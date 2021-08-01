@@ -1,0 +1,25 @@
+{
+  "name": "nextjs-11-dynamic-api-catch-all-bug",
+  "version": "4.0.0",
+  "private": true,
+  "dependencies": {
+    "next": "11.0.2-canary.20",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "devDependencies": {
+    "@types/next": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  },
+  "keywords": [],
+  "description": ""
+}
